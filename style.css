@@ -1,0 +1,56 @@
+.button_dsn{
+    color: rgb(255, 89, 0);
+    height: 40px;
+    width: 40px;
+font-weight: bolder;
+background-color: aquamarine;
+border: 2px solid rgb(239, 186, 186);
+border-radius: .5em;
+}
+.button_dsn:hover{
+    background-color: rgb(10, 243, 41);
+    color: white;
+}
+.button_dsn_expr{
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 40px;
+font-weight: bolder;
+background-color: rgb(255, 133, 127);
+border: 2px solid rgb(247, 198, 198);
+border-radius: .5em;
+text-align: center;
+}
+.button_dsn_expr:hover{
+    background-color: rgb(243, 88, 10);
+    color: white;
+}
+#btn_equal{
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 128px;
+font-weight: bolder;
+background-color: rgb(255, 133, 127);
+border: 2px solid white;
+border-radius: .5em;
+}
+#btn_equal:hover{
+    background-color: red;
+}
+#input_field{
+    border: 5px solid aquamarine;
+    border-radius: .5em;
+    width: 172px;
+    color: blue;
+    font-weight: bolder;
+}
+.div_align{
+    display: flex;
+  align-items: center;
+}
+.filed{
+    background-image: linear-gradient(180deg, rgb(247, 212, 212),rgba(228, 232, 207, 0.616));
+    width: 196px;
+    padding: 10px 10px;
+    border-radius: .5em;
+}
