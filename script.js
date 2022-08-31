@@ -15,7 +15,18 @@ function myFunction(a) {
     let ans=0;
     let b= document.getElementById("input_field");
     b.value+=a;
-   
-
+  
   
   }
+
+
+  var input = document.getElementById("input_field");
+
+   input.addEventListener("keypress", function(event) {
+
+    if (event.key === "Enter") {
+      event.preventDefault();
+      let rr= document.getElementById(input_field)
+      input_field.value=eval(input_field.value);
+    }
+  });

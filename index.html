@@ -17,7 +17,7 @@
           
             <table>
                 <tr>
-                    <input type="text" name="disp" id="input_field"  placeholder="0">
+                    <input type="text" name="disp" value="" id="input_field"  placeholder="0">
         
                 </tr>
                 <tr>
@@ -47,11 +47,14 @@
                 </tr>
                 <tr>
                     <td>
+                        <input type="button" value="0" class="button_dsn button" onclick="myFunction(0)">
                         <input type="button" value="/" class="button_dsn_expr button" onclick="myFunction('/')">
-                        <input type="button" value="=" id="btn_equal" class="button" onclick="disp.value=eval(disp.value)">
+                        <input type="button" value="=" id="btn_equal" class="button" onclick="disp.value=eval(disp.value)"
+                        >
                     </td>
                 </tr>
         
+
             </table>
 
         </form>
