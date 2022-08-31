@@ -1,3 +1,6 @@
+body{
+   background-color: azure;
+}
 .button_dsn{
     color: rgb(255, 89, 0);
     height: 40px;
@@ -23,7 +26,8 @@ text-align: center;
 }
 .button_dsn_expr:hover{
     background-color: rgb(243, 88, 10);
-    color: white;
+    color: rgb(67, 212, 27);
+    font-weight:900;
 }
 #btn_equal{
     color: rgb(255, 255, 255);
