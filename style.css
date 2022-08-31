@@ -28,9 +28,9 @@ text-align: center;
 #btn_equal{
     color: rgb(255, 255, 255);
     height: 40px;
-    width: 85px;
+    width: 128px;
 font-weight: bolder;
-background-color: rgb(255, 133, 127);
+background-color: rgb(75, 75, 75);
 border: 2px solid white;
 border-radius: .5em;
 }
@@ -54,3 +54,6 @@ border-radius: .5em;
     padding: 10px 10px;
     border-radius: .5em;
 }
+table, th, td {
+    border-collapse:collapse;
+  }
